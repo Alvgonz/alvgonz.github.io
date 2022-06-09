@@ -1,0 +1,27 @@
+/* Box sizing */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-color: #cad6e2;
+    font-family: 'Monda', sans-serif;
+}
+
+h1,h2,h3 {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ececec;
+    text-align: center;
+}
